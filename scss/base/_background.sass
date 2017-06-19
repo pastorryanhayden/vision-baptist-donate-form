@@ -1,0 +1,62 @@
+body 
+	background: url(../img/background.png) no-repeat center center 
+	background-size: cover
+	min-height: 100vh
+div.wrapper 
+	width: 100%
+	max-width: 1000px
+	min-height: 100vh
+	margin-left: auto
+	margin-right: auto
+	display: flex 
+	flex-direction: column
+	align-items: center 
+	justify-content: center 
+	color: #E0DFDE 
+	text-align: center
+	h1 
+		font-weight: 900
+		font-size: rem-calc(30)
+		color: #E0DFDE
+		margin-bottom: 0px
+		+breakpoint(medium)
+			font-size: rem-calc(65)
+	h2
+		font-weight: 400
+		font-size: rem-calc(20)
+		margin-bottom: 50px
+		+breakpoint(medium)
+			font-size: rem-calc(35)
+			margin-bottom: 100px
+	form.form--choose-missionary, form.form--choose-project
+		h4
+			font-weight: 900
+			font-size: rem-calc(20)
+			margin-bottom: 20px
+		select 
+			color: #8493A8
+			margin-bottom: 40px
+		div.buttons
+			display: flex
+			flex-direction: column 
+			align-items: center 
+			margin-bottom: 40px
+			button.button 
+				color: #E0DFDE
+				border-color: #E0DFDE
+				&:hover
+					background: #E0DFDE
+					color: #5A453A
+			a 
+				color: #E0DFDE
+
+	a.return
+		color: #E0DFDE
+		width: 330px
+		font-size: rem-calc(25)
+		font-style: italic
+
+
+
+
+

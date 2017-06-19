@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Baptist Missions - Give</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="img/logo.svg" alt="Vision Baptist Missions" class="logo" width="300px">
+      <h1>Invest in Eternity</h1>
+      <div class="ammount-choose">
+      <h4>Select the ammount to give to the Home Office</h4>
+      <!-- "The Home Office" should be switched with the selected project or missionary if the user came from the project or missionary page.  This information also needs to travel to the next page.-->
+      <label>
+        One Time
+        <input type="text" placeholder="20.00" class="money">
+      </label>
+      <label>
+      Monthly
+      <div class="expanded button-group">
+        <a class="button">$10</a>
+        <a class="button selected">$20</a>
+        <a class="button">$50</a>
+        <a class="button">$100</a>
+        <a class="button">Other</a>
+      </div>
+      </label>
+      <!--  
+      
+      // This should only be shown when the "Other" is selected above, and when other is selected above, the "One Time" input should be hidden.
+
+      <label>
+        Monthly Ammount
+        <input type="text" class="money">
+      </label>
+
+      -->
+      <div class="buttons">
+          <button class="button hollow">Next Step</button>
+          <a href="#">Go Back</a>
+      </div>
+      </div><!--/ammount-choose-->
+      <a href="#" class="return">Return to Vision Baptist Missions</a>
+    </div><!--/wrapper-->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/dist/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
